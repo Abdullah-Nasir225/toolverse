@@ -1,0 +1,114 @@
+# Toolverse
+
+> 50+ browser-based text transformation and developer tools. Format, convert, encode, analyze, and clean text — all client-side, no signup.
+
+Toolverse is a fast, privacy-friendly toolkit for writers, developers, and data folks. Every tool runs entirely in the browser.
+
+## Pages
+
+- [Home](/): Overview of all tool categories.
+
+## Categories
+
+- [Core Text Transformations](/tools/core-transformations): Change case, reverse, and reshape text instantly.
+- [Text Cleaning](/tools/text-cleaning): Trim, strip and sanitize noisy text.
+- [Counting & Statistics](/tools/counting-statistics): Measure characters, words, lines and more.
+- [Sorting](/tools/sorting): Order lines and words alphabetically or numerically.
+- [Find & Replace](/tools/find-replace): Search patterns and swap text at scale.
+- [Encoding](/tools/encoding): Encode and decode Base64, URL, HTML and more.
+- [Formatting](/tools/formatting): Pretty-print, indent and align your text.
+- [Developer Tools](/tools/developer): Format, minify, validate and convert code and data.
+
+## Tools
+
+- [UPPERCASE](/tools/core-transformations/uppercase): Convert text to uppercase.
+- [lowercase](/tools/core-transformations/lowercase): Convert text to lowercase.
+- [Title Case](/tools/core-transformations/title-case): Capitalize the first letter of each word.
+- [Sentence case](/tools/core-transformations/sentence-case): Capitalize the first letter of each sentence.
+- [tOGGLE cASE](/tools/core-transformations/toggle-case): Swap the case of every character.
+- [Invert Case](/tools/core-transformations/invert-case): Alternate letters between lower and upper case.
+- [camelCase](/tools/core-transformations/camel-case): Convert text to camelCase.
+- [PascalCase](/tools/core-transformations/pascal-case): Convert text to PascalCase.
+- [snake_case](/tools/core-transformations/snake-case): Convert text to snake_case.
+- [kebab-case](/tools/core-transformations/kebab-case): Convert text to kebab-case.
+- [dot.case](/tools/core-transformations/dot-case): Convert text to dot.case.
+- [CONSTANT_CASE](/tools/core-transformations/constant-case): Convert text to CONSTANT_CASE.
+- [Remove Extra Spaces](/tools/text-cleaning/remove-extra-spaces): Collapse multiple spaces into a single space.
+- [Remove Duplicate Lines](/tools/text-cleaning/remove-duplicate-lines): Delete repeated lines, keep first occurrence.
+- [Remove Empty Lines](/tools/text-cleaning/remove-empty-lines): Strip lines that contain no characters.
+- [Remove Blank Paragraphs](/tools/text-cleaning/remove-blank-paragraphs): Collapse multiple blank paragraphs into one break.
+- [Remove Tabs](/tools/text-cleaning/remove-tabs): Replace every tab character with a single space.
+- [Trim Spaces](/tools/text-cleaning/trim-spaces): Remove leading and trailing spaces from each line.
+- [Normalize Whitespace](/tools/text-cleaning/normalize-whitespace): Standardize whitespace across the text.
+- [Remove Multiple Line Breaks](/tools/text-cleaning/remove-multiple-line-breaks): Collapse 3+ line breaks into one blank line.
+- [Character Count](/tools/counting-statistics/character-count): Count characters, letters, numbers and more.
+- [Word Count](/tools/counting-statistics/word-count): Count words and analyze word length.
+- [Line Count](/tools/counting-statistics/line-count): Count total, empty and non-empty lines.
+- [Paragraph Count](/tools/counting-statistics/paragraph-count): Count paragraphs separated by blank lines.
+- [Sentence Count](/tools/counting-statistics/sentence-count): Count sentences and average sentence length.
+- [Reading Time](/tools/counting-statistics/reading-time): Estimate reading duration at 200 WPM.
+- [Speaking Time](/tools/counting-statistics/speaking-time): Estimate speaking duration at 130 WPM.
+- [Keyword Density](/tools/counting-statistics/keyword-density): Find the top 10 most frequent words.
+- [Sort Lines A–Z](/tools/sorting/sort-lines): Sort lines alphabetically ascending.
+- [Sort Lines Z–A](/tools/sorting/sort-lines-desc): Sort lines alphabetically descending.
+- [Sort Numbers Ascending](/tools/sorting/sort-numbers-asc): Sort numeric lines from smallest to largest.
+- [Sort Numbers Descending](/tools/sorting/sort-numbers-desc): Sort numeric lines from largest to smallest.
+- [Randomize Lines](/tools/sorting/randomize-lines): Shuffle lines in random order.
+- [Reverse Line Order](/tools/sorting/reverse-line-order): Reverse the order of lines.
+- [Reverse Characters](/tools/sorting/reverse-characters): Reverse every character in the text.
+- [Reverse Words](/tools/sorting/reverse-words): Reverse the order of words per line.
+- [Natural Sort](/tools/sorting/natural-sort): Sort using natural ordering (Item 1, Item 2, Item 10).
+- [Case-Insensitive Sort](/tools/sorting/case-insensitive-sort): Alphabetical sort ignoring letter case.
+- [Find Text](/tools/find-replace/find-text): Locate every occurrence of a search term.
+- [Find & Replace](/tools/find-replace/find-and-replace): Replace matching text with another value.
+- [Replace First Occurrence](/tools/find-replace/replace-first-occurrence): Replace only the first match.
+- [Replace Last Occurrence](/tools/find-replace/replace-last-occurrence): Replace only the final match.
+- [Replace All](/tools/find-replace/replace-all): Replace every occurrence in the text.
+- [Remove Text](/tools/find-replace/remove-text): Delete every occurrence of a search term.
+- [Highlight Matches](/tools/find-replace/highlight-matches): Highlight all matches without changing the text.
+- [Regex Find & Replace](/tools/find-replace/regex-find-replace): Search and replace using regular expressions.
+- [Base64 Encode](/tools/encoding/base64-encode): Encode text to Base64.
+- [Base64 Decode](/tools/encoding/base64-decode): Decode Base64 back to text.
+- [URL Encode](/tools/encoding/url-encode): Percent-encode a string.
+- [URL Decode](/tools/encoding/url-decode): Decode a URL-encoded string.
+- [HTML Encode](/tools/encoding/html-encode): Escape special characters as HTML entities.
+- [HTML Decode](/tools/encoding/html-decode): Convert HTML entities back to text.
+- [Unicode Encode](/tools/encoding/unicode-encode): Convert characters to \uXXXX escape sequences.
+- [Unicode Decode](/tools/encoding/unicode-decode): Decode \uXXXX sequences back to text.
+- [Binary Encode](/tools/encoding/binary-encode): Convert text to 8-bit binary.
+- [Binary Decode](/tools/encoding/binary-decode): Decode space-separated binary back to text.
+- [Hex Encode](/tools/encoding/hex-encode): Convert text to hexadecimal bytes.
+- [Hex Decode](/tools/encoding/hex-decode): Decode hexadecimal bytes back to text.
+- [Add Line Numbers](/tools/formatting/add-line-numbers): Number every line sequentially.
+- [Remove Line Numbers](/tools/formatting/remove-line-numbers): Strip common numbering prefixes like 1., 1), 01.
+- [Indent Text](/tools/formatting/indent-text): Add 2 spaces, 4 spaces or a tab to each line.
+- [Outdent Text](/tools/formatting/outdent-text): Remove one indentation level from each line.
+- [Align Left](/tools/formatting/align-left): Trim leading whitespace so text starts at the margin.
+- [Align Center](/tools/formatting/align-center): Center every line within a fixed width.
+- [Align Right](/tools/formatting/align-right): Right-align every line within a fixed width.
+- [Justify Text](/tools/formatting/justify-text): Wrap and justify text across a fixed width.
+- [Wrap Text](/tools/formatting/wrap-text): Wrap long lines at a chosen width.
+- [Unwrap Text](/tools/formatting/unwrap-text): Merge wrapped lines while preserving paragraphs.
+- [Add Prefix](/tools/formatting/add-prefix): Prepend a custom prefix to every line.
+- [Add Suffix](/tools/formatting/add-suffix): Append a custom suffix to every line.
+- [Remove Prefix](/tools/formatting/remove-prefix): Strip a prefix from the start of each line.
+- [Remove Suffix](/tools/formatting/remove-suffix): Strip a suffix from the end of each line.
+- [Add Bullet Points](/tools/formatting/add-bullet-points): Turn every non-empty line into a bulleted list.
+- [Remove Bullet Points](/tools/formatting/remove-bullet-points): Strip bullet characters from the start of lines.
+- [JSON Formatter](/tools/developer/json-formatter): Pretty-print valid JSON with 2-space indentation.
+- [JSON Minifier](/tools/developer/json-minifier): Compact JSON by removing whitespace.
+- [JSON Validator](/tools/developer/json-validator): Check JSON validity and show parse errors.
+- [JSON to XML](/tools/developer/json-to-xml): Convert JSON into equivalent XML.
+- [JSON to CSV](/tools/developer/json-to-csv): Convert JSON arrays into CSV rows.
+- [JSON to YAML](/tools/developer/json-to-yaml): Convert JSON into YAML.
+- [XML Formatter](/tools/developer/xml-formatter): Beautify XML with indentation.
+- [XML Minifier](/tools/developer/xml-minifier): Strip whitespace between XML tags.
+- [XML Validator](/tools/developer/xml-validator): Validate XML syntax.
+- [HTML Formatter](/tools/developer/html-formatter): Beautify HTML with indentation.
+- [HTML Minifier](/tools/developer/html-minifier): Minify HTML while preserving structure.
+- [CSS Formatter](/tools/developer/css-formatter): Beautify CSS with proper indentation.
+- [CSS Minifier](/tools/developer/css-minifier): Strip comments and whitespace from CSS.
+- [JavaScript Formatter](/tools/developer/javascript-formatter): Beautify JavaScript source.
+- [JavaScript Minifier](/tools/developer/javascript-minifier): Minify JavaScript source.
+- [SQL Formatter](/tools/developer/sql-formatter): Format SQL queries with keyword capitalisation.
+- [Markdown Preview](/tools/developer/markdown-preview): Live preview of rendered Markdown.
