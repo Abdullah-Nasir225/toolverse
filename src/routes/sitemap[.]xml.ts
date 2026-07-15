@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 import { CATEGORIES } from "@/lib/tools-data";
 
-const BASE_URL = "https://little-joys-link.lovable.app";
+const BASE_URL = "https://toolversee.vercel.app";
 
 interface SitemapEntry {
   path: string;
